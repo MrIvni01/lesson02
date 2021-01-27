@@ -61,7 +61,7 @@ public class SampleTest {
     By input = By.xpath("//input[@id = 'searchNumber']");
 
     @Test
-    public void openPageTele2() throws InterruptedException {
+    public void openPageTele2(){
         logger.info("Тест запущен");
         try {
             driver.get("https://msk.tele2.ru/shop/number");
